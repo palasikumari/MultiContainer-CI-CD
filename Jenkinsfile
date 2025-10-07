@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Source') {
             steps {
-                git url: 'your-git-repo-url', branch: 'main'
+                git url: 'https://github.com/palasikumari/MultiContainer-CI-CD.git', branch: 'main'
             }
         }
 
